@@ -1,6 +1,6 @@
 # JB-Copy
 
-Node.js **folder replication** on the terminal.<br/>
+Node.js assisted **folder replication** on the terminal.<br/>
 
 This runs the copy of a folder on another destination with assisted options.<br/>
 You can skip some types of subfolders recursively, like `node_modules` or `.git`, so it doesn't make a full copy, ignoring those files not needed.<br/>
