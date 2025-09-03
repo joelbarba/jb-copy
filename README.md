@@ -48,7 +48,7 @@ On the left column you can select the subfolders to be excluded on the copy (Sel
 **Analyze Directory** → If you select this option (with Enter), a it runs full scan of the original folder, as it would do with the copy, to scan all the files and subfolders that will be copied, but no copy is done.
 On the bottom you'll see the stats of the original folder that will be copied.
 
-![Screenshot of a sample view of a note edit](./samples/full-sample.gif)
+![Screenshot of a sample view of a note edit](./samples/jb-copy-full.gif)
 
 On the 2nd column you have the origin folder.<br/>
 On the 3rd column you have the destination path.
@@ -57,4 +57,11 @@ You can navigate the columns with the left/right arrows.
 
 
 # Remove Node Modules
-An optional program 
+An optional program is also provided to, instead of copy the folder, remove all **node_module** folders recursively from the current one.<br/>
+
+It doesn't provide a full interface, but a quick prompt after a recursive folder scan, with some analitics:
+
+![Screenshot of a sample view of a note edit](./samples/remove-node-modules.png)
+
+There you can confirm to remove (with `rm -rf`) all `node_modules/` folders recursively.
+
