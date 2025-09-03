@@ -57,11 +57,12 @@ You can navigate the columns with the left/right arrows.
 
 
 # Remove Node Modules
-An optional program is also provided to, instead of copy the folder, remove all **node_module** folders recursively from the current one.<br/>
+An optional program is also provided to remove all **node_modules/** folders recursively from the current folder<br/>
 
-It doesn't provide a full interface, but a quick prompt after a recursive folder scan, with some analitics:
+It doesn't copy anything, just delete all nested **node_modules/** folders.
+There is no full interface, but a quick prompt after a recursive folder scan, with some analitics:
 
 ![Screenshot of a sample view of a note edit](./samples/remove-node-modules.png)
 
-There you can confirm to remove (with `rm -rf`) all `node_modules/` folders recursively.
+There you can confirm to remove and run all `rm -rf ./xxxx/node_modules/` that are needed.
 
