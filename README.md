@@ -45,8 +45,12 @@ When you run the app (even with origin and destination parameters) a terminal sc
 
 On the left column you can select the subfolders to be excluded on the copy (Select them and press "Enter" to check/uncheck them).<br/>
 
+**Start Copy** → It will prompt a confirmation, and then start the copy process.
+
 **Analyze Directory** → If you select this option (with Enter), a it runs full scan of the original folder, as it would do with the copy, to scan all the files and subfolders that will be copied, but no copy is done.
 On the bottom you'll see the stats of the original folder that will be copied.
+
+**Show Hidden Files** → Just shows/hides the hidden files (.xxx) on the 2nd and 3rd column. These files are always copied, regardless they are shown or not.
 
 ![Screenshot of a sample view of a note edit](./samples/jb-copy-full.gif)
 
@@ -59,7 +63,7 @@ You can navigate the columns with the left/right arrows.
 # Remove Node Modules
 An optional program is also provided to remove all **node_modules/** folders recursively from the current folder<br/>
 
-It doesn't copy anything, just delete all nested **node_modules/** folders.
+It doesn't copy anything, just delete all nested **node_modules/** folders.<br/>
 There is no full interface, but a quick prompt after a recursive folder scan, with some analitics:
 
 ![Screenshot of a sample view of a note edit](./samples/remove-node-modules.png)
