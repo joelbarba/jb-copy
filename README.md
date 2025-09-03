@@ -9,6 +9,8 @@ You can also use a navigation to select the **origin** and **destination**.
 
 ![Screenshot of a sample view of a note edit](./samples/sample1.png)
 
+This app uses some `jb-node-lib` functions (see https://github.com/joelbarba/jb-node-lib)<br/>
+Although you can find a compiled version all in 1 file in `./copy.js`
 
 ## Shortcut
 It is recomended to use an alias (or shortcut) on your terminal, so you don't need to point to the source everytime you want to use it.<br/>
